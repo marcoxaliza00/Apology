@@ -60,7 +60,11 @@
       from { opacity: 0; transform: translateY(40px); }
       to { opacity: 1; transform: translateY(0); }
     }
-    audio {
+  <audio autoplay loop controls>
+  <source src="https://files.catbox.moe/5qdwzk.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    
       margin-top: 40px;
       outline: none;
     }
@@ -81,7 +85,11 @@
     <audio autoplay loop controls>
       <source src="https://cdn.pixabay.com/download/audio/2023/03/03/audio_ef8a2f35d3.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
-    </audio>
+    <audio autoplay loop controls>
+  <source src="https://files.catbox.moe/5qdwzk.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+      
   </div>
 </body>
 </html>
